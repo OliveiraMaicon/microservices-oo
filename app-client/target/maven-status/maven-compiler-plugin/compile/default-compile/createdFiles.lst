@@ -1,0 +1,5 @@
+microservice/com/example/entity/Patient.class
+microservice/com/example/controller/PatientGatewayController.class
+microservice/com/example/component/client/PatientClient.class
+microservice/com/example/component/PatientIntegration.class
+microservice/com/example/AppClientApplication.class

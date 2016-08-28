@@ -1,0 +1,15 @@
+---
+applications:
+- name: app-client
+  memory: 512M
+  instances: 1
+  host: app-client-${random-word}
+  domain: cfapps.io
+  path: target/app-client.jar
+  services:    
+    - config-service
+    - eureka-service
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+    DEBUG: "true"
+    debug: "true"
